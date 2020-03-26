@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.movieSearch
+{
+  width: 87%;
+  border: 3px solid black;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+}
+.card {
+  border-radius: 15px;
+  width: 20%;
+  margin-top:20px;
+  margin-bottom: 10px;
+  margin-left: 110px;
+  height: auto; 
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  position: relative;
+}  
+.movieImg{
+  max-width:80%; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:auto;
+  border-radius: 30px;
+} 
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.movieText{
+  font-size: medium;
+  font-weight: 500;
+  font-style: italic;
+  align-items: center;
+  color: black;
+}
+.deleteAndedit{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* align-items: baseline; */
+}
+.movieRating{
+  font-size: 20px;
+  margin-top: 5px;
+ }
+ input[type=text] {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form [type=text]{
+  width: 50%;
+  padding: 5px;
+  height: 50px;
+  outline: none;
+}
+.hoverText{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width:80%; 
+  margin-top: 5px;
+  height:auto;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.card:hover .movieImg {
+  opacity: 0.3;
+}
+.card:hover .hoverText {
+  opacity: 1;
+}
+.deleteMovie {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	font-style:italic;
+	padding:9px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+} 
+
+.cardDescription{
+  border-radius: 15px;
+  width: 20%;
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-left: 550px;
+  height: auto; 
+  text-align: center;
+}
+.textDescription{
+  font-size: medium;
+  font-weight: 500;
+  text-align: justify;
+}
+.titleDescription{
+  font-size: large;
+  font-weight: 800;
+  text-align: center;
+}
+.imageDescription{
+  max-width:80%; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:auto;
+  border-radius: 30px;
+}
+.yt{
+  margin-right: 10px;
+}
+.btnDescription{
+  align-items: baseline;
+}
+.infoIcon{
+  color:black;
+  margin-bottom: 5px;
+}
+.delIcon{
+  color:black;
+}
+.editIcon{
+  color:black;
+}
