@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { getKeyword, getRating } from '../Actions/Actions';
 import StarRatingComponent from "react-star-rating-component";

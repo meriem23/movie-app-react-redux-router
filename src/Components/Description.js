@@ -17,7 +17,7 @@ class Description extends Component {
   UNSAFE_componentWillMount() {
     this.setState({
       movie: this.props.movies.filter(
-        el => el.id == this.props.match.params.id
+        el => el.id === this.props.match.params.id
       )[0]
     });
   }
