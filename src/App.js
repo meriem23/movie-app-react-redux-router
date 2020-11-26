@@ -1,9 +1,9 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import MovieList from './Components/MovieList';
-import AddMovieModal from './Components/AddMovieModal';
-import Filter from './Components/Filter'
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MovieList from "./Components/MovieList";
+import AddMovieModal from "./Components/AddMovieModal";
+import Filter from "./Components/Filter";
 
 function App() {
   return (
